@@ -5,12 +5,12 @@ using UnityEngine;
 public class Controller : MonoBehaviour
 {
     public Rigidbody bullet;
-    public GameObject ui;
     public float Speed { get; set; }
 
     public float speedVar;
     
     public GameObject controller;
+    public GameObject tip;
 
 
     // Start is called before the first frame update
@@ -29,31 +29,9 @@ public class Controller : MonoBehaviour
         RaycastHit hit;
         transform.rotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTrackedRemote);
 
-        if (OVRInput.GetDown(OVRInput.Button.Two))
-        {
-            Debug.Log("back button pressed");
-            //GameObject ui = GameObject.FindWithTag("UI");
-            if (ui == null)
-            {
-                Debug.Log("no ui");
-            }
-            else
-            {
-                if (ui.activeSelf == true)
-                {
-                    ui.SetActive(false);
-                }
-                else
-                {
-                    ui.SetActive(true);
-                }
-            }
-
-        }
-
         if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
         {
-            Rigidbody bulletClone = (Rigidbody)Instantiate(bullet, controller.transform.position, controller.transform.rotation);
+            Rigidbody bulletClone = (Rigidbody)Instantiate(bullet, tip.transform.position, controller.transform.rotation);
             bulletClone.velocity = controller.transform.forward * Speed;
             Color newColor = new Color(Random.value, Random.value, Random.value, 1.0f);
             bulletClone.GetComponent<Renderer>().material.color = newColor;
