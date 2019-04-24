@@ -129,6 +129,7 @@
      <None Include="Assets\Oculus\VR\Resources\OVRMRClipPlane.shader" />
      <None Include="Assets\Oculus\VR\Resources\Underlay Impostor.shader" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\Polygonal Particles\Assets\Shaders\GradientBackgroundShader.shader" />
      <None Include="Assets\Oculus\VR\Plugins\placeholder.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/gezim/Documents/UnityProjects/LeadZeppelin/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
