@@ -6,57 +6,53 @@ public class PlaneParticles : MonoBehaviour
 {
     public Component[] particles;
     public int maxShots; // number of times plane must be shot before going down
+    public int fireShots; // min number of times to shoot plane before it catches fire
+    public int smokeShots; // min number of times to shoot plane before it starts smoking 
+
+    private ParticleSystem fire;
+    private ParticleSystem smoke;
 
     void Start()
     {
         particles = gameObject.GetComponentsInChildren<ParticleSystem>(true);
-        //foreach (ParticleSystem part in particles)
-        //{
-        //    if (part.gameObject.tag == "Fire" || part.gameObject.tag == "Steam")
-        //    {
-        //        part.Play();
-        //    }
-        //}
+        foreach(ParticleSystem part in particles)
+        {
+            if (part.gameObject.tag == "Fire") { fire = part; }
+            if (part.gameObject.tag == "Steam") { smoke = part; }
+        }
     } 
-
-    //void Update()
-    //{
-    //    //null reference in here?
-    //    foreach(ParticleSystem part in particles)
-    //    {
-    //        if (part.gameObject.tag == "Fire" || part.gameObject.tag == "Steam")
-    //        {
-    //            if (part.isEmitting == false)
-    //            {
-    //                part.Play(true);
-    //            }
-    //        }
-    //    }
-    //}
-
     
     void applyParticles(int numShots)
     {
         if (numShots >= maxShots)
         {
             destructPlane();
+            return;
         }
 
-        foreach (var child in particles)
+        if(numShots >= fireShots) // if we have hit enough times to catch fire, determined by fireShots
         {
-            if (child.gameObject.tag == "Fire" || child.gameObject.tag == "Steam")
+            if (fire.gameObject.activeSelf == false) // turn on the first time
             {
-                if (child.gameObject.activeSelf == false) // turn on particles on first hit
-                {
-                    //Debug.Log("turning on particles");
-                    child.gameObject.SetActive(true);
-                }
-                else // scale up on subsequent shots
-                {
-                    //Debug.Log("scaling up subsequently");
-                    Vector3 newScale = new Vector3(child.transform.localScale.x + 0.25f, child.transform.localScale.y + 0.25f, child.transform.localScale.z + 0.25f);
-                    child.transform.localScale = newScale;
-                }
+                fire.gameObject.SetActive(true);
+            }
+            else //scale up subsequent times
+            {
+                Vector3 newScale = new Vector3(fire.transform.localScale.x + 0.25f, fire.transform.localScale.y + 0.25f, fire.transform.localScale.z + 0.25f);
+                fire.transform.localScale = newScale;
+            }
+        }
+
+        if (numShots >= smokeShots) // if we have hit enough times to smoke, determined by smokeShots
+        {
+            if (smoke.gameObject.activeSelf == false) // turn on the first time
+            {
+                smoke.gameObject.SetActive(true);
+            }
+            else //scale up subsequent times
+            {
+                Vector3 newScale = new Vector3(smoke.transform.localScale.x + 0.25f, smoke.transform.localScale.y + 0.25f, smoke.transform.localScale.z + 0.25f);
+                smoke.transform.localScale = newScale;
             }
         }
     }
@@ -64,5 +60,6 @@ public class PlaneParticles : MonoBehaviour
     void destructPlane()
     {
         Debug.Log("WE'RE GOING DOWN BOYS");
+        Destroy(this.gameObject);
     }
 }
