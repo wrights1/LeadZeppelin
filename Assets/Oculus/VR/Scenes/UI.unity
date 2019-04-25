@@ -1510,12 +1510,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30530ad0e40d0a64ea26d753ee4996ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hideByDefault: 1
+  hideByDefault: 0
   showTimeoutPeriod: 1
   hideTimeoutPeriod: 0.1
   dimOnHideRequest: 1
   depthScaleMultiplier: 0.03
-  rayTransform: {fileID: 2080101479}
+  rayTransform: {fileID: 2080101481}
   cursorRadius: 1
 --- !u!4 &851230874
 Transform:
@@ -2654,7 +2654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1a9a1d119a5944aacfb87d1ec283a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayTransform: {fileID: 2080101479}
+  rayTransform: {fileID: 2080101481}
   joyPadClickButton: 1
   gazeClickKey: 32
   performSphereCastForGazepointer: 1
@@ -2957,12 +2957,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2080101472}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2080101479 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400012, guid: ce816f2e6abb0504092c23ed9b970dfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 2080101472}
-  m_PrefabAsset: {fileID: 0}
 --- !u!54 &2080101480
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2979,6 +2973,12 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &2080101481 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 481164, guid: ce816f2e6abb0504092c23ed9b970dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2080101472}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &2080101482
 Rigidbody:
   m_ObjectHideFlags: 0

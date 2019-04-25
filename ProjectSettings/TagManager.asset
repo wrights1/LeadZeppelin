@@ -7,6 +7,10 @@ TagManager:
   - Controller
   - ColorCube
   - UI
+  - Fire
+  - GreenPlaneParticles
+  - GreenPlane
+  - Steam
   layers:
   - Default
   - TransparentFX
