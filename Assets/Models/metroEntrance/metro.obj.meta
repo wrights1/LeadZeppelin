@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: 8ec4ce222a6a5244ca448182428184e5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ground1
+    100002: grp_logoMetro_group27
+    100004: grp_logoMetro_Group_2311_UND_GRND_sign_group
+    100006: grp_logoMetro_logo:Group_2310_logo:UND_GRND_sign_group
+    100008: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2311
+    100010: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2313
+    100012: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2314
+    100014: grp_logoMetro_pPlane3
+    100016: grp_logoMetro_UND_GRND_sign_group_Group_2312
+    100018: grp_logoMetro_UND_GRND_sign_group_Group_2313
+    100020: grp_logoMetro_UND_GRND_sign_group_Group_2314
+    100022: //RootNode
+    100024: polySurface15_UNDGRND_entry_group
+    100026: pPlane2_grp_logoMetro
+    100028: pPlane4
+    100030: UNDGRND_entry_group_group12_group15_pCube10
+    100032: UNDGRND_entry_group_group12_group16_pCube10
+    100034: UNDGRND_entry_group_group12_group17_pCube10
+    100036: UNDGRND_entry_group_group12_group18_pCube10
+    100038: UNDGRND_entry_group_group12_group19_pCube10
+    100040: UNDGRND_entry_group_group12_group20_pCube10
+    100042: UNDGRND_entry_group_group12_group21_pCube10
+    100044: UNDGRND_entry_group_group12_pCube33_group15
+    100046: UNDGRND_entry_group_group12_pCube33_group16
+    100048: UNDGRND_entry_group_group12_pCube33_group17
+    100050: UNDGRND_entry_group_group12_pCube33_group18
+    100052: UNDGRND_entry_group_group12_pCube33_group19
+    100054: UNDGRND_entry_group_group12_pCube33_group20
+    100056: UNDGRND_entry_group_group12_pCube33_group21
+    100058: UNDGRND_entry_group_group13_group10_group8_polySurface6
+    100060: UNDGRND_entry_group_group13_group10_polySurface5_group8
+    100062: UNDGRND_entry_group_group13_group11_group8_polySurface6
+    100064: UNDGRND_entry_group_group13_group11_polySurface5_group8
+    100066: UNDGRND_entry_group_group13_group24_pCube29_polySurface11
+    100068: UNDGRND_entry_group_group13_group24_pCylinder16
+    100070: UNDGRND_entry_group_group13_group24_polySurface10_pCube29
+    100072: UNDGRND_entry_group_group13_pCube23_group10
+    100074: UNDGRND_entry_group_group13_pCube23_group11
+    100076: UNDGRND_entry_group_group13_pCube32
+    100078: UNDGRND_entry_group_group13_pCylinder1_group24
+    100080: UNDGRND_entry_group_group13_polySurface14_polySurface13_pCube29_group23
+    100082: UNDGRND_entry_group_group14_group12_pCube10
+    100084: UNDGRND_entry_group_group25_extrudedSurface2
+    100086: UNDGRND_entry_group_group25_pCylinder12
+    100088: UNDGRND_entry_group_group25_pCylinder13
+    100090: UNDGRND_entry_group_group25_pCylinder14
+    100092: UNDGRND_entry_group_group25_pCylinder15
+    100094: UNDGRND_entry_group_group26_extrudedSurface2
+    100096: UNDGRND_entry_group_group26_pCylinder12
+    100098: UNDGRND_entry_group_group26_pCylinder13
+    100100: UNDGRND_entry_group_group26_pCylinder14
+    100102: UNDGRND_entry_group_group26_pCylinder15
+    100104: UNDGRND_entry_group_group7_group5_polySurface6
+    100106: UNDGRND_entry_group_group7_group6_polySurface6
+    100108: UNDGRND_entry_group_group7_pCube25
+    100110: UNDGRND_entry_group_group7_polySurface4
+    100112: UNDGRND_entry_group_group7_polySurface5_group5
+    100114: UNDGRND_entry_group_group7_polySurface5_group6
+    100116: UNDGRND_entry_group_pCube28_group13
+    100118: UNDGRND_entry_group_pCube30
+    100120: UNDGRND_entry_group_pCube33_group14_group12
+    100122: UNDGRND_entry_group_pCube35_polySurface9
+    100124: UNDGRND_entry_group_pCylinder10
+    100126: UNDGRND_entry_group_pCylinder11
+    100128: UNDGRND_entry_group_pCylinder3_group25
+    100130: UNDGRND_entry_group_pCylinder3_group26
+    100132: UNDGRND_entry_group_polySurface7_group7
+    100134: UNDGRND_entry_group_polySurface8_pCube35
+    400000: ground1
+    400002: grp_logoMetro_group27
+    400004: grp_logoMetro_Group_2311_UND_GRND_sign_group
+    400006: grp_logoMetro_logo:Group_2310_logo:UND_GRND_sign_group
+    400008: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2311
+    400010: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2313
+    400012: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2314
+    400014: grp_logoMetro_pPlane3
+    400016: grp_logoMetro_UND_GRND_sign_group_Group_2312
+    400018: grp_logoMetro_UND_GRND_sign_group_Group_2313
+    400020: grp_logoMetro_UND_GRND_sign_group_Group_2314
+    400022: //RootNode
+    400024: polySurface15_UNDGRND_entry_group
+    400026: pPlane2_grp_logoMetro
+    400028: pPlane4
+    400030: UNDGRND_entry_group_group12_group15_pCube10
+    400032: UNDGRND_entry_group_group12_group16_pCube10
+    400034: UNDGRND_entry_group_group12_group17_pCube10
+    400036: UNDGRND_entry_group_group12_group18_pCube10
+    400038: UNDGRND_entry_group_group12_group19_pCube10
+    400040: UNDGRND_entry_group_group12_group20_pCube10
+    400042: UNDGRND_entry_group_group12_group21_pCube10
+    400044: UNDGRND_entry_group_group12_pCube33_group15
+    400046: UNDGRND_entry_group_group12_pCube33_group16
+    400048: UNDGRND_entry_group_group12_pCube33_group17
+    400050: UNDGRND_entry_group_group12_pCube33_group18
+    400052: UNDGRND_entry_group_group12_pCube33_group19
+    400054: UNDGRND_entry_group_group12_pCube33_group20
+    400056: UNDGRND_entry_group_group12_pCube33_group21
+    400058: UNDGRND_entry_group_group13_group10_group8_polySurface6
+    400060: UNDGRND_entry_group_group13_group10_polySurface5_group8
+    400062: UNDGRND_entry_group_group13_group11_group8_polySurface6
+    400064: UNDGRND_entry_group_group13_group11_polySurface5_group8
+    400066: UNDGRND_entry_group_group13_group24_pCube29_polySurface11
+    400068: UNDGRND_entry_group_group13_group24_pCylinder16
+    400070: UNDGRND_entry_group_group13_group24_polySurface10_pCube29
+    400072: UNDGRND_entry_group_group13_pCube23_group10
+    400074: UNDGRND_entry_group_group13_pCube23_group11
+    400076: UNDGRND_entry_group_group13_pCube32
+    400078: UNDGRND_entry_group_group13_pCylinder1_group24
+    400080: UNDGRND_entry_group_group13_polySurface14_polySurface13_pCube29_group23
+    400082: UNDGRND_entry_group_group14_group12_pCube10
+    400084: UNDGRND_entry_group_group25_extrudedSurface2
+    400086: UNDGRND_entry_group_group25_pCylinder12
+    400088: UNDGRND_entry_group_group25_pCylinder13
+    400090: UNDGRND_entry_group_group25_pCylinder14
+    400092: UNDGRND_entry_group_group25_pCylinder15
+    400094: UNDGRND_entry_group_group26_extrudedSurface2
+    400096: UNDGRND_entry_group_group26_pCylinder12
+    400098: UNDGRND_entry_group_group26_pCylinder13
+    400100: UNDGRND_entry_group_group26_pCylinder14
+    400102: UNDGRND_entry_group_group26_pCylinder15
+    400104: UNDGRND_entry_group_group7_group5_polySurface6
+    400106: UNDGRND_entry_group_group7_group6_polySurface6
+    400108: UNDGRND_entry_group_group7_pCube25
+    400110: UNDGRND_entry_group_group7_polySurface4
+    400112: UNDGRND_entry_group_group7_polySurface5_group5
+    400114: UNDGRND_entry_group_group7_polySurface5_group6
+    400116: UNDGRND_entry_group_pCube28_group13
+    400118: UNDGRND_entry_group_pCube30
+    400120: UNDGRND_entry_group_pCube33_group14_group12
+    400122: UNDGRND_entry_group_pCube35_polySurface9
+    400124: UNDGRND_entry_group_pCylinder10
+    400126: UNDGRND_entry_group_pCylinder11
+    400128: UNDGRND_entry_group_pCylinder3_group25
+    400130: UNDGRND_entry_group_pCylinder3_group26
+    400132: UNDGRND_entry_group_polySurface7_group7
+    400134: UNDGRND_entry_group_polySurface8_pCube35
+    2100000: ground1Mat
+    2100002: grp_logoMetro_group27Mat
+    2100004: grp_logoMetro_Group_2311_UND_GRND_sign_groupMat
+    2100006: grp_logoMetro_logo_Group_2310_logo_UND_GRND_sign_groupMat
+    2100008: grp_logoMetro_logo_UND_GRND_sign_group_logo_Group_2311Mat
+    2100010: grp_logoMetro_logo_UND_GRND_sign_group_logo_Group_2313Mat
+    2100012: grp_logoMetro_logo_UND_GRND_sign_group_logo_Group_2314Mat
+    2100014: grp_logoMetro_pPlane3Mat
+    2100016: grp_logoMetro_UND_GRND_sign_group_Group_2312Mat
+    2100018: grp_logoMetro_UND_GRND_sign_group_Group_2313Mat
+    2100020: grp_logoMetro_UND_GRND_sign_group_Group_2314Mat
+    2100022: polySurface15_UNDGRND_entry_groupMat
+    2100024: pPlane2_grp_logoMetroMat
+    2100026: pPlane4Mat
+    2100028: UNDGRND_entry_group_group12_group15_pCube10Mat
+    2100030: UNDGRND_entry_group_group12_group16_pCube10Mat
+    2100032: UNDGRND_entry_group_group12_group17_pCube10Mat
+    2100034: UNDGRND_entry_group_group12_group18_pCube10Mat
+    2100036: UNDGRND_entry_group_group12_group19_pCube10Mat
+    2100038: UNDGRND_entry_group_group12_group20_pCube10Mat
+    2100040: UNDGRND_entry_group_group12_group21_pCube10Mat
+    2100042: UNDGRND_entry_group_group12_pCube33_group15Mat
+    2100044: UNDGRND_entry_group_group12_pCube33_group16Mat
+    2100046: UNDGRND_entry_group_group12_pCube33_group17Mat
+    2100048: UNDGRND_entry_group_group12_pCube33_group18Mat
+    2100050: UNDGRND_entry_group_group12_pCube33_group19Mat
+    2100052: UNDGRND_entry_group_group12_pCube33_group20Mat
+    2100054: UNDGRND_entry_group_group12_pCube33_group21Mat
+    2100056: UNDGRND_entry_group_group13_group10_group8_polySurface6Mat
+    2100058: UNDGRND_entry_group_group13_group10_polySurface5_group8Mat
+    2100060: UNDGRND_entry_group_group13_group11_group8_polySurface6Mat
+    2100062: UNDGRND_entry_group_group13_group11_polySurface5_group8Mat
+    2100064: UNDGRND_entry_group_group13_group24_pCube29_polySurface11Mat
+    2100066: UNDGRND_entry_group_group13_group24_pCylinder16Mat
+    2100068: UNDGRND_entry_group_group13_group24_polySurface10_pCube29Mat
+    2100070: UNDGRND_entry_group_group13_pCube23_group10Mat
+    2100072: UNDGRND_entry_group_group13_pCube23_group11Mat
+    2100074: UNDGRND_entry_group_group13_pCube32Mat
+    2100076: UNDGRND_entry_group_group13_pCylinder1_group24Mat
+    2100078: UNDGRND_entry_group_group13_polySurface14_polySurface13_pCube29_group23Mat
+    2100080: UNDGRND_entry_group_group14_group12_pCube10Mat
+    2100082: UNDGRND_entry_group_group25_extrudedSurface2Mat
+    2100084: UNDGRND_entry_group_group25_pCylinder12Mat
+    2100086: UNDGRND_entry_group_group25_pCylinder13Mat
+    2100088: UNDGRND_entry_group_group25_pCylinder14Mat
+    2100090: UNDGRND_entry_group_group25_pCylinder15Mat
+    2100092: UNDGRND_entry_group_group26_extrudedSurface2Mat
+    2100094: UNDGRND_entry_group_group26_pCylinder12Mat
+    2100096: UNDGRND_entry_group_group26_pCylinder13Mat
+    2100098: UNDGRND_entry_group_group26_pCylinder14Mat
+    2100100: UNDGRND_entry_group_group26_pCylinder15Mat
+    2100102: UNDGRND_entry_group_group7_group5_polySurface6Mat
+    2100104: UNDGRND_entry_group_group7_group6_polySurface6Mat
+    2100106: UNDGRND_entry_group_group7_pCube25Mat
+    2100108: UNDGRND_entry_group_group7_polySurface4Mat
+    2100110: UNDGRND_entry_group_group7_polySurface5_group5Mat
+    2100112: UNDGRND_entry_group_group7_polySurface5_group6Mat
+    2100114: UNDGRND_entry_group_pCube28_group13Mat
+    2100116: UNDGRND_entry_group_pCube30Mat
+    2100118: UNDGRND_entry_group_pCube33_group14_group12Mat
+    2100120: UNDGRND_entry_group_pCube35_polySurface9Mat
+    2100122: UNDGRND_entry_group_pCylinder10Mat
+    2100124: UNDGRND_entry_group_pCylinder11Mat
+    2100126: UNDGRND_entry_group_pCylinder3_group25Mat
+    2100128: UNDGRND_entry_group_pCylinder3_group26Mat
+    2100130: UNDGRND_entry_group_polySurface7_group7Mat
+    2100132: UNDGRND_entry_group_polySurface8_pCube35Mat
+    2300000: ground1
+    2300002: grp_logoMetro_group27
+    2300004: grp_logoMetro_Group_2311_UND_GRND_sign_group
+    2300006: grp_logoMetro_logo:Group_2310_logo:UND_GRND_sign_group
+    2300008: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2311
+    2300010: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2313
+    2300012: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2314
+    2300014: grp_logoMetro_pPlane3
+    2300016: grp_logoMetro_UND_GRND_sign_group_Group_2312
+    2300018: grp_logoMetro_UND_GRND_sign_group_Group_2313
+    2300020: grp_logoMetro_UND_GRND_sign_group_Group_2314
+    2300022: polySurface15_UNDGRND_entry_group
+    2300024: pPlane2_grp_logoMetro
+    2300026: pPlane4
+    2300028: UNDGRND_entry_group_group12_group15_pCube10
+    2300030: UNDGRND_entry_group_group12_group16_pCube10
+    2300032: UNDGRND_entry_group_group12_group17_pCube10
+    2300034: UNDGRND_entry_group_group12_group18_pCube10
+    2300036: UNDGRND_entry_group_group12_group19_pCube10
+    2300038: UNDGRND_entry_group_group12_group20_pCube10
+    2300040: UNDGRND_entry_group_group12_group21_pCube10
+    2300042: UNDGRND_entry_group_group12_pCube33_group15
+    2300044: UNDGRND_entry_group_group12_pCube33_group16
+    2300046: UNDGRND_entry_group_group12_pCube33_group17
+    2300048: UNDGRND_entry_group_group12_pCube33_group18
+    2300050: UNDGRND_entry_group_group12_pCube33_group19
+    2300052: UNDGRND_entry_group_group12_pCube33_group20
+    2300054: UNDGRND_entry_group_group12_pCube33_group21
+    2300056: UNDGRND_entry_group_group13_group10_group8_polySurface6
+    2300058: UNDGRND_entry_group_group13_group10_polySurface5_group8
+    2300060: UNDGRND_entry_group_group13_group11_group8_polySurface6
+    2300062: UNDGRND_entry_group_group13_group11_polySurface5_group8
+    2300064: UNDGRND_entry_group_group13_group24_pCube29_polySurface11
+    2300066: UNDGRND_entry_group_group13_group24_pCylinder16
+    2300068: UNDGRND_entry_group_group13_group24_polySurface10_pCube29
+    2300070: UNDGRND_entry_group_group13_pCube23_group10
+    2300072: UNDGRND_entry_group_group13_pCube23_group11
+    2300074: UNDGRND_entry_group_group13_pCube32
+    2300076: UNDGRND_entry_group_group13_pCylinder1_group24
+    2300078: UNDGRND_entry_group_group13_polySurface14_polySurface13_pCube29_group23
+    2300080: UNDGRND_entry_group_group14_group12_pCube10
+    2300082: UNDGRND_entry_group_group25_extrudedSurface2
+    2300084: UNDGRND_entry_group_group25_pCylinder12
+    2300086: UNDGRND_entry_group_group25_pCylinder13
+    2300088: UNDGRND_entry_group_group25_pCylinder14
+    2300090: UNDGRND_entry_group_group25_pCylinder15
+    2300092: UNDGRND_entry_group_group26_extrudedSurface2
+    2300094: UNDGRND_entry_group_group26_pCylinder12
+    2300096: UNDGRND_entry_group_group26_pCylinder13
+    2300098: UNDGRND_entry_group_group26_pCylinder14
+    2300100: UNDGRND_entry_group_group26_pCylinder15
+    2300102: UNDGRND_entry_group_group7_group5_polySurface6
+    2300104: UNDGRND_entry_group_group7_group6_polySurface6
+    2300106: UNDGRND_entry_group_group7_pCube25
+    2300108: UNDGRND_entry_group_group7_polySurface4
+    2300110: UNDGRND_entry_group_group7_polySurface5_group5
+    2300112: UNDGRND_entry_group_group7_polySurface5_group6
+    2300114: UNDGRND_entry_group_pCube28_group13
+    2300116: UNDGRND_entry_group_pCube30
+    2300118: UNDGRND_entry_group_pCube33_group14_group12
+    2300120: UNDGRND_entry_group_pCube35_polySurface9
+    2300122: UNDGRND_entry_group_pCylinder10
+    2300124: UNDGRND_entry_group_pCylinder11
+    2300126: UNDGRND_entry_group_pCylinder3_group25
+    2300128: UNDGRND_entry_group_pCylinder3_group26
+    2300130: UNDGRND_entry_group_polySurface7_group7
+    2300132: UNDGRND_entry_group_polySurface8_pCube35
+    3300000: ground1
+    3300002: grp_logoMetro_group27
+    3300004: grp_logoMetro_Group_2311_UND_GRND_sign_group
+    3300006: grp_logoMetro_logo:Group_2310_logo:UND_GRND_sign_group
+    3300008: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2311
+    3300010: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2313
+    3300012: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2314
+    3300014: grp_logoMetro_pPlane3
+    3300016: grp_logoMetro_UND_GRND_sign_group_Group_2312
+    3300018: grp_logoMetro_UND_GRND_sign_group_Group_2313
+    3300020: grp_logoMetro_UND_GRND_sign_group_Group_2314
+    3300022: polySurface15_UNDGRND_entry_group
+    3300024: pPlane2_grp_logoMetro
+    3300026: pPlane4
+    3300028: UNDGRND_entry_group_group12_group15_pCube10
+    3300030: UNDGRND_entry_group_group12_group16_pCube10
+    3300032: UNDGRND_entry_group_group12_group17_pCube10
+    3300034: UNDGRND_entry_group_group12_group18_pCube10
+    3300036: UNDGRND_entry_group_group12_group19_pCube10
+    3300038: UNDGRND_entry_group_group12_group20_pCube10
+    3300040: UNDGRND_entry_group_group12_group21_pCube10
+    3300042: UNDGRND_entry_group_group12_pCube33_group15
+    3300044: UNDGRND_entry_group_group12_pCube33_group16
+    3300046: UNDGRND_entry_group_group12_pCube33_group17
+    3300048: UNDGRND_entry_group_group12_pCube33_group18
+    3300050: UNDGRND_entry_group_group12_pCube33_group19
+    3300052: UNDGRND_entry_group_group12_pCube33_group20
+    3300054: UNDGRND_entry_group_group12_pCube33_group21
+    3300056: UNDGRND_entry_group_group13_group10_group8_polySurface6
+    3300058: UNDGRND_entry_group_group13_group10_polySurface5_group8
+    3300060: UNDGRND_entry_group_group13_group11_group8_polySurface6
+    3300062: UNDGRND_entry_group_group13_group11_polySurface5_group8
+    3300064: UNDGRND_entry_group_group13_group24_pCube29_polySurface11
+    3300066: UNDGRND_entry_group_group13_group24_pCylinder16
+    3300068: UNDGRND_entry_group_group13_group24_polySurface10_pCube29
+    3300070: UNDGRND_entry_group_group13_pCube23_group10
+    3300072: UNDGRND_entry_group_group13_pCube23_group11
+    3300074: UNDGRND_entry_group_group13_pCube32
+    3300076: UNDGRND_entry_group_group13_pCylinder1_group24
+    3300078: UNDGRND_entry_group_group13_polySurface14_polySurface13_pCube29_group23
+    3300080: UNDGRND_entry_group_group14_group12_pCube10
+    3300082: UNDGRND_entry_group_group25_extrudedSurface2
+    3300084: UNDGRND_entry_group_group25_pCylinder12
+    3300086: UNDGRND_entry_group_group25_pCylinder13
+    3300088: UNDGRND_entry_group_group25_pCylinder14
+    3300090: UNDGRND_entry_group_group25_pCylinder15
+    3300092: UNDGRND_entry_group_group26_extrudedSurface2
+    3300094: UNDGRND_entry_group_group26_pCylinder12
+    3300096: UNDGRND_entry_group_group26_pCylinder13
+    3300098: UNDGRND_entry_group_group26_pCylinder14
+    3300100: UNDGRND_entry_group_group26_pCylinder15
+    3300102: UNDGRND_entry_group_group7_group5_polySurface6
+    3300104: UNDGRND_entry_group_group7_group6_polySurface6
+    3300106: UNDGRND_entry_group_group7_pCube25
+    3300108: UNDGRND_entry_group_group7_polySurface4
+    3300110: UNDGRND_entry_group_group7_polySurface5_group5
+    3300112: UNDGRND_entry_group_group7_polySurface5_group6
+    3300114: UNDGRND_entry_group_pCube28_group13
+    3300116: UNDGRND_entry_group_pCube30
+    3300118: UNDGRND_entry_group_pCube33_group14_group12
+    3300120: UNDGRND_entry_group_pCube35_polySurface9
+    3300122: UNDGRND_entry_group_pCylinder10
+    3300124: UNDGRND_entry_group_pCylinder11
+    3300126: UNDGRND_entry_group_pCylinder3_group25
+    3300128: UNDGRND_entry_group_pCylinder3_group26
+    3300130: UNDGRND_entry_group_polySurface7_group7
+    3300132: UNDGRND_entry_group_polySurface8_pCube35
+    4300000: ground1
+    4300002: grp_logoMetro_group27
+    4300004: grp_logoMetro_Group_2311_UND_GRND_sign_group
+    4300006: grp_logoMetro_logo:Group_2310_logo:UND_GRND_sign_group
+    4300008: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2311
+    4300010: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2313
+    4300012: grp_logoMetro_logo:UND_GRND_sign_group_logo:Group_2314
+    4300014: grp_logoMetro_pPlane3
+    4300016: grp_logoMetro_UND_GRND_sign_group_Group_2312
+    4300018: grp_logoMetro_UND_GRND_sign_group_Group_2313
+    4300020: grp_logoMetro_UND_GRND_sign_group_Group_2314
+    4300022: polySurface15_UNDGRND_entry_group
+    4300024: pPlane2_grp_logoMetro
+    4300026: pPlane4
+    4300028: UNDGRND_entry_group_group12_group15_pCube10
+    4300030: UNDGRND_entry_group_group12_group16_pCube10
+    4300032: UNDGRND_entry_group_group12_group17_pCube10
+    4300034: UNDGRND_entry_group_group12_group18_pCube10
+    4300036: UNDGRND_entry_group_group12_group19_pCube10
+    4300038: UNDGRND_entry_group_group12_group20_pCube10
+    4300040: UNDGRND_entry_group_group12_group21_pCube10
+    4300042: UNDGRND_entry_group_group12_pCube33_group15
+    4300044: UNDGRND_entry_group_group12_pCube33_group16
+    4300046: UNDGRND_entry_group_group12_pCube33_group17
+    4300048: UNDGRND_entry_group_group12_pCube33_group18
+    4300050: UNDGRND_entry_group_group12_pCube33_group19
+    4300052: UNDGRND_entry_group_group12_pCube33_group20
+    4300054: UNDGRND_entry_group_group12_pCube33_group21
+    4300056: UNDGRND_entry_group_group13_group10_group8_polySurface6
+    4300058: UNDGRND_entry_group_group13_group10_polySurface5_group8
+    4300060: UNDGRND_entry_group_group13_group11_group8_polySurface6
+    4300062: UNDGRND_entry_group_group13_group11_polySurface5_group8
+    4300064: UNDGRND_entry_group_group13_group24_pCube29_polySurface11
+    4300066: UNDGRND_entry_group_group13_group24_pCylinder16
+    4300068: UNDGRND_entry_group_group13_group24_polySurface10_pCube29
+    4300070: UNDGRND_entry_group_group13_pCube23_group10
+    4300072: UNDGRND_entry_group_group13_pCube23_group11
+    4300074: UNDGRND_entry_group_group13_pCube32
+    4300076: UNDGRND_entry_group_group13_pCylinder1_group24
+    4300078: UNDGRND_entry_group_group13_polySurface14_polySurface13_pCube29_group23
+    4300080: UNDGRND_entry_group_group14_group12_pCube10
+    4300082: UNDGRND_entry_group_group25_extrudedSurface2
+    4300084: UNDGRND_entry_group_group25_pCylinder12
+    4300086: UNDGRND_entry_group_group25_pCylinder13
+    4300088: UNDGRND_entry_group_group25_pCylinder14
+    4300090: UNDGRND_entry_group_group25_pCylinder15
+    4300092: UNDGRND_entry_group_group26_extrudedSurface2
+    4300094: UNDGRND_entry_group_group26_pCylinder12
+    4300096: UNDGRND_entry_group_group26_pCylinder13
+    4300098: UNDGRND_entry_group_group26_pCylinder14
+    4300100: UNDGRND_entry_group_group26_pCylinder15
+    4300102: UNDGRND_entry_group_group7_group5_polySurface6
+    4300104: UNDGRND_entry_group_group7_group6_polySurface6
+    4300106: UNDGRND_entry_group_group7_pCube25
+    4300108: UNDGRND_entry_group_group7_polySurface4
+    4300110: UNDGRND_entry_group_group7_polySurface5_group5
+    4300112: UNDGRND_entry_group_group7_polySurface5_group6
+    4300114: UNDGRND_entry_group_pCube28_group13
+    4300116: UNDGRND_entry_group_pCube30
+    4300118: UNDGRND_entry_group_pCube33_group14_group12
+    4300120: UNDGRND_entry_group_pCube35_polySurface9
+    4300122: UNDGRND_entry_group_pCylinder10
+    4300124: UNDGRND_entry_group_pCylinder11
+    4300126: UNDGRND_entry_group_pCylinder3_group25
+    4300128: UNDGRND_entry_group_pCylinder3_group26
+    4300130: UNDGRND_entry_group_polySurface7_group7
+    4300132: UNDGRND_entry_group_polySurface8_pCube35
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_group15_pCube10Mat
+    second: {fileID: 2100000, guid: 296371df5fce20e4aa9a798788d20809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_group16_pCube10Mat
+    second: {fileID: 2100000, guid: 06ee8f814efbc904bb776d51f7a8ba9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_group17_pCube10Mat
+    second: {fileID: 2100000, guid: 482b1eb15febc184c8592991052c5ed2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_group18_pCube10Mat
+    second: {fileID: 2100000, guid: 98669b8e9b202f145809c2d99ebd3b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_group19_pCube10Mat
+    second: {fileID: 2100000, guid: 5708798d561c1fa4298c8b2d6591651c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_group20_pCube10Mat
+    second: {fileID: 2100000, guid: 1be7a291c5fe89740b63dc715eb6e983, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_group21_pCube10Mat
+    second: {fileID: 2100000, guid: 56f21c0c9ff610f4c944370f33b37bbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_pCube33_group15Mat
+    second: {fileID: 2100000, guid: 08b7f8a0f35c4044484dd4ec874aa799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_pCube33_group16Mat
+    second: {fileID: 2100000, guid: e7872e982d2d42649828a49618011b61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_pCube33_group17Mat
+    second: {fileID: 2100000, guid: b620555d8f0bb9e4f807ebdf15278f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_pCube33_group18Mat
+    second: {fileID: 2100000, guid: 3b968eaec2ab9e74586833a2a61c61c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_pCube33_group19Mat
+    second: {fileID: 2100000, guid: 35e5574199c1e3246b22fffc1dda172b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_pCube33_group20Mat
+    second: {fileID: 2100000, guid: 756ec6140a5345948be106fbd7f7d29a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group12_pCube33_group21Mat
+    second: {fileID: 2100000, guid: 6fcfb4eff3e7b9544ae004365b943d0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_group10_group8_polySurface6Mat
+    second: {fileID: 2100000, guid: 9b259b25161f1964baaea95878a734f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_group10_polySurface5_group8Mat
+    second: {fileID: 2100000, guid: 19d7fa797a3479948a916bb7f9f48700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_group11_group8_polySurface6Mat
+    second: {fileID: 2100000, guid: d729cb66c5cde6b4ba7c18d01f99d7ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_group11_polySurface5_group8Mat
+    second: {fileID: 2100000, guid: 0c1a6f6f0bea92e48a8eb7d4628e42f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_group24_pCube29_polySurface11Mat
+    second: {fileID: 2100000, guid: 56e67f8faa9e4994582ed0ae2da9e5e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_group24_pCylinder16Mat
+    second: {fileID: 2100000, guid: d3c92cd177d684347bd2e220545da93e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_group24_polySurface10_pCube29Mat
+    second: {fileID: 2100000, guid: a07628467fd1225458eb15464ce0ebad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_pCube23_group10Mat
+    second: {fileID: 2100000, guid: 4865fd231af584d4b900cd3b46223513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_pCube23_group11Mat
+    second: {fileID: 2100000, guid: a708b0112e8abf540b19da815e922bdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_pCube32Mat
+    second: {fileID: 2100000, guid: 7d7ba3e5337b568469acea45614eaaa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_pCylinder1_group24Mat
+    second: {fileID: 2100000, guid: f4cb44f6159d3484099877d2053bb671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group13_polySurface14_polySurface13_pCube29_group23Mat
+    second: {fileID: 2100000, guid: 205c52c63c07bed4c9ad2b41098b442b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group14_group12_pCube10Mat
+    second: {fileID: 2100000, guid: 3613fbcb390161b4e92a02ad2e20700d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group25_extrudedSurface2Mat
+    second: {fileID: 2100000, guid: 444463cfe94c04a4281702f69433960d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group25_pCylinder12Mat
+    second: {fileID: 2100000, guid: fd98fcbe2fe4ce64ca0c4e503289733a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group25_pCylinder13Mat
+    second: {fileID: 2100000, guid: 6866b88fa91c74949802d9d9637a1b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group25_pCylinder14Mat
+    second: {fileID: 2100000, guid: f4d8d054f2fe80e4994880ab9d93f69b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group25_pCylinder15Mat
+    second: {fileID: 2100000, guid: 429cc49bdbffb3540a6ebe1aaa3bdd79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group26_extrudedSurface2Mat
+    second: {fileID: 2100000, guid: 4d19693015e4abd4d81cfc69b5371a56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group26_pCylinder12Mat
+    second: {fileID: 2100000, guid: 63fce51efd54af24b8ba07fcb3dad274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group26_pCylinder13Mat
+    second: {fileID: 2100000, guid: f6770d8cbd287824c8e08b9901cfd8db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group26_pCylinder14Mat
+    second: {fileID: 2100000, guid: 4dc177635e1ae8b46a9f223f245e1850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group26_pCylinder15Mat
+    second: {fileID: 2100000, guid: 537a0fc293258a442b338ab8228a0d7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group7_group5_polySurface6Mat
+    second: {fileID: 2100000, guid: 7f951a0d1ad91b348a82c8ac59d8b8d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group7_group6_polySurface6Mat
+    second: {fileID: 2100000, guid: c95dab06a4585e046a5d78731b21d41f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group7_pCube25Mat
+    second: {fileID: 2100000, guid: a8ae8aa554aa8da4e88d7cd635448ec3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group7_polySurface4Mat
+    second: {fileID: 2100000, guid: ba97abea74fe35f4c8b0ca6dceb04494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group7_polySurface5_group5Mat
+    second: {fileID: 2100000, guid: 1ed8e8e74f0a2664c9ed4cefe88d65c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_group7_polySurface5_group6Mat
+    second: {fileID: 2100000, guid: bba3813b86c66f14387524caafec1ee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_pCube28_group13Mat
+    second: {fileID: 2100000, guid: 05d92fc3c8fd78549a7eb3eef355a592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_pCube30Mat
+    second: {fileID: 2100000, guid: 8caef332fa4e0a544bc0e21842e331e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_pCube33_group14_group12Mat
+    second: {fileID: 2100000, guid: 69bf825ddd1f4f146accecc2cb9ce77a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_pCube35_polySurface9Mat
+    second: {fileID: 2100000, guid: 923ee8eb68e61d64792cd0fa4b025c1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_pCylinder10Mat
+    second: {fileID: 2100000, guid: d74303c0faa9d4c4d9aa5ea9ab6ae8d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_pCylinder11Mat
+    second: {fileID: 2100000, guid: 4912bd77a56069944948c825aea6e9c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_pCylinder3_group25Mat
+    second: {fileID: 2100000, guid: 32c0c275acdd00b4284112f02a557fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_pCylinder3_group26Mat
+    second: {fileID: 2100000, guid: bf7bfebb5e0731c48a1a49aab246cc29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_polySurface7_group7Mat
+    second: {fileID: 2100000, guid: 361db3581a888c74391fa026f5303294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UNDGRND_entry_group_polySurface8_pCube35Mat
+    second: {fileID: 2100000, guid: 7116e42ea7742114699708aba7e1ca6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground1Mat
+    second: {fileID: 2100000, guid: f9ac139d8bd03c94da197c01a9248391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_Group_2311_UND_GRND_sign_groupMat
+    second: {fileID: 2100000, guid: bf5ab02dcb09ab94081501113e4bcca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_UND_GRND_sign_group_Group_2312Mat
+    second: {fileID: 2100000, guid: 4d54d2a164f92354181bdc7db1551c3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_UND_GRND_sign_group_Group_2313Mat
+    second: {fileID: 2100000, guid: cb7f2733c0dc3a647a61e47130056f33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_UND_GRND_sign_group_Group_2314Mat
+    second: {fileID: 2100000, guid: 5c12646517678f74cabb0ad144d11856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_group27Mat
+    second: {fileID: 2100000, guid: 0889772928f580a48ad6b08477a3ab48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_logo_Group_2310_logo_UND_GRND_sign_groupMat
+    second: {fileID: 2100000, guid: 8eed73c45cd991a44b6d45b754ea3e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_logo_UND_GRND_sign_group_logo_Group_2311Mat
+    second: {fileID: 2100000, guid: f44cd23782af9f645a5ed3db5b4515a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_logo_UND_GRND_sign_group_logo_Group_2313Mat
+    second: {fileID: 2100000, guid: 32eb7e0a9da4e5546a90cb341f380ca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_logo_UND_GRND_sign_group_logo_Group_2314Mat
+    second: {fileID: 2100000, guid: 92a1b541e6a0afc45935df0315d38349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grp_logoMetro_pPlane3Mat
+    second: {fileID: 2100000, guid: 33619a4c787b77540885aad7c2d74f62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPlane2_grp_logoMetroMat
+    second: {fileID: 2100000, guid: a9c2d51c626eed34b87e5c1ac0b2a9b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pPlane4Mat
+    second: {fileID: 2100000, guid: a758e69bd99ead344af51652ea45542a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface15_UNDGRND_entry_groupMat
+    second: {fileID: 2100000, guid: 2e36c48f3f05a8f43a4534de5bbfe11c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
