@@ -60,6 +60,7 @@ public class PlaneParticles : MonoBehaviour
     void destructPlane()
     {
         Debug.Log("WE'RE GOING DOWN BOYS");
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
+        gameObject.SetActive(false);
     }
 }

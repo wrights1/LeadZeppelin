@@ -42,17 +42,18 @@ public class SquidMove : MonoBehaviour {
 
             // Move Enemy from current waypoint to the next one
             // using MoveTowards method
-            transform.position = Vector2.MoveTowards(transform.position, waypoints[waypointIndex].transform.position, moveSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, waypoints[waypointIndex].transform.position, moveSpeed * Time.deltaTime);
 			
 			
 			Vector3 dir = waypoints[waypointIndex].position - transform.position;
-			float angle = Mathf.Atan2(dir.y,dir.x) * Mathf.Rad2Deg;
-			// transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-			
-			
-			
-			var desiredRotQ = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, angle);
-			transform.rotation = Quaternion.Lerp(transform.rotation, desiredRotQ, Time.deltaTime * damping);
+			float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            // transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+
+
+            //var desiredRotQ = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, angle);
+            var desiredRotQ = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, angle);
+            transform.rotation = Quaternion.Lerp(transform.rotation, desiredRotQ, Time.deltaTime * damping);
  
 			
 			// Vector3 newDir = Vector3.RotateTowards(transform.forward, (waypoints[waypointIndex].position - transform.position), (moveSpeed * Time.deltaTime), 0.0f);
@@ -68,7 +69,7 @@ public class SquidMove : MonoBehaviour {
                 waypointIndex += 1;
             }
         }
-		if (waypointIndex == waypoints.Length - 1) {
+		else {
 			waypointIndex = 0;
 		}
     }

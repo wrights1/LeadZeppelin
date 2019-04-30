@@ -7,8 +7,6 @@ public class GunController : MonoBehaviour
 
     public AudioClip clip;
     public AudioSource audioSource;
-
-    public GameObject targetPlane;
     public Transform gunTip;
 
     private int numShots = 0;
@@ -44,9 +42,8 @@ public class GunController : MonoBehaviour
 
             if (hit.collider.gameObject.CompareTag("GreenPlane"))
             {
-                Debug.Log("found plane");
                 numShots += 1;
-                targetPlane.SendMessage("applyParticles", numShots);
+                hit.collider.gameObject.SendMessage("applyParticles", numShots);
             }
         }
     }
