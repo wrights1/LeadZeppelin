@@ -20,7 +20,7 @@ public class GunController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTrackedRemote);
+        //transform.localRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTrackedRemote);
 
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
         {
@@ -42,8 +42,8 @@ public class GunController : MonoBehaviour
 
             if (hit.collider.gameObject.CompareTag("GreenPlane"))
             {
-                numShots += 1;
-                hit.collider.gameObject.SendMessage("applyParticles", numShots);
+                //numShots += 1;
+                hit.collider.gameObject.SendMessage("applyParticles");
             }
         }
     }

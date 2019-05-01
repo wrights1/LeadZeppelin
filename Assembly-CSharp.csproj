@@ -122,6 +122,7 @@
     <Compile Include="Assets\Scripts\Pointer.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SquidMove.cs" />
+    <Compile Include="Assets\Scripts\StartPause.cs" />
     <Compile Include="Assets\Scripts\TimerController.cs" />
     <Compile Include="Assets\Scripts\Tooltip.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

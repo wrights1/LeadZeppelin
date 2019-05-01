@@ -12,6 +12,8 @@ public class PlaneParticles : MonoBehaviour
     private ParticleSystem fire;
     private ParticleSystem smoke;
 
+    public int numShots;
+
     void Start()
     {
         particles = gameObject.GetComponentsInChildren<ParticleSystem>(true);
@@ -22,12 +24,13 @@ public class PlaneParticles : MonoBehaviour
         }
     } 
     
-    void applyParticles(int numShots)
+    void applyParticles()
     {
+        numShots++;
         if (numShots >= maxShots)
         {
             destructPlane();
-            return;
+            numShots = 0;
         }
 
         if(numShots >= fireShots) // if we have hit enough times to catch fire, determined by fireShots
@@ -38,7 +41,7 @@ public class PlaneParticles : MonoBehaviour
             }
             else //scale up subsequent times
             {
-                Vector3 newScale = new Vector3(fire.transform.localScale.x + 0.25f, fire.transform.localScale.y + 0.25f, fire.transform.localScale.z + 0.25f);
+                Vector3 newScale = new Vector3(fire.transform.localScale.x + 0.3f, fire.transform.localScale.y + 0.3f, fire.transform.localScale.z + 0.3f);
                 fire.transform.localScale = newScale;
             }
         }
@@ -51,7 +54,7 @@ public class PlaneParticles : MonoBehaviour
             }
             else //scale up subsequent times
             {
-                Vector3 newScale = new Vector3(smoke.transform.localScale.x + 0.25f, smoke.transform.localScale.y + 0.25f, smoke.transform.localScale.z + 0.25f);
+                Vector3 newScale = new Vector3(smoke.transform.localScale.x + 0.3f, smoke.transform.localScale.y + 0.3f, smoke.transform.localScale.z + 0.3f);
                 smoke.transform.localScale = newScale;
             }
         }
