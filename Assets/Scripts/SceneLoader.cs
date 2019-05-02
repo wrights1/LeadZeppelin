@@ -7,11 +7,11 @@ public class SceneLoader : MonoBehaviour
 {
     public string CurrentSceneName;
     public string NextSceneName;
-    public string MainMenuName = "Main Menu";
+    public string MainMenuName;
 
     public void Start()
     {
-        Time.timeScale = 1.0f;
+        //Time.timeScale = 1.0f;
     }
 
     public void NextScene()
@@ -23,5 +23,10 @@ public class SceneLoader : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(CurrentSceneName);
+    }
+
+    public void Quit()
+    {
+        SceneManager.LoadScene(MainMenuName);
     }
 }
