@@ -121,6 +121,7 @@
     <Compile Include="Assets\Scripts\PlaneSpawner.cs" />
     <Compile Include="Assets\Scripts\Pointer.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\SmoothPath.cs" />
     <Compile Include="Assets\Scripts\SquidMove.cs" />
     <Compile Include="Assets\Scripts\StartPause.cs" />
     <Compile Include="Assets\Scripts\TimerController.cs" />

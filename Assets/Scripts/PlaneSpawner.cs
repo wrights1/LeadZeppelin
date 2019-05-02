@@ -29,5 +29,9 @@ public class PlaneSpawner : MonoBehaviour
                 }
             }
         }
+        else 
+        {
+
+        }
     }
 }

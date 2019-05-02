@@ -8,6 +8,7 @@ public class GunController : MonoBehaviour
     public AudioClip clip;
     public AudioSource audioSource;
     public Transform gunTip;
+    public string hitTag;
 
     private int numShots = 0;
     // Start is called before the first frame update
@@ -40,10 +41,10 @@ public class GunController : MonoBehaviour
                 Destroy(hit.collider.gameObject);
             }
 
-            if (hit.collider.gameObject.CompareTag("GreenPlane"))
+            if (hit.collider.gameObject.CompareTag(hitTag))
             {
                 //numShots += 1;
-                hit.collider.gameObject.SendMessage("applyParticles");
+                hit.collider.gameObject.SendMessageUpwards("applyParticles");
             }
         }
     }

@@ -12,6 +12,7 @@ TagManager:
   - GreenPlane
   - Steam
   - LoseScreen
+  - Zeppelin
   layers:
   - Default
   - TransparentFX
