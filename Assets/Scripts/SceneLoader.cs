@@ -11,7 +11,7 @@ public class SceneLoader : MonoBehaviour
 
     public void Start()
     {
-        //Time.timeScale = 1.0f;
+        Time.timeScale = 1.0f;
     }
 
     public void NextScene()

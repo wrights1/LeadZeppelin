@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/London.unity
     guid: d7fc26c45f908ac4aa38372b49e21a85
+  - enabled: 1
+    path: Assets/Scenes/PlaneShooter.unity
+    guid: ff8607e8b436b204ca81b2494e9b4457
   m_configObjects: {}

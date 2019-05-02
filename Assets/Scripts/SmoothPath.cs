@@ -25,8 +25,8 @@ public class SmoothPath : MonoBehaviour
     {
 
         // Set position of Enemy as position of the first waypoint
-        transform.position = waypoints[waypointIndex].transform.position;
-        transform.rotation = waypoints[waypointIndex].transform.rotation;
+        //transform.position = waypoints[waypointIndex].transform.position;
+        //transform.rotation = waypoints[waypointIndex].transform.rotation;
 
     }
 
@@ -35,9 +35,7 @@ public class SmoothPath : MonoBehaviour
     {
         if (waypointIndex <= waypoints.Length - 1)
         {
-
             transform.position = Vector3.MoveTowards(transform.position, waypoints[waypointIndex].transform.position, moveSpeed * Time.deltaTime);
-
             transform.rotation = Quaternion.Slerp(transform.rotation, waypoints[waypointIndex].rotation, Time.deltaTime * damping);
 
             if (transform.position == waypoints[waypointIndex].transform.position)
@@ -47,6 +45,7 @@ public class SmoothPath : MonoBehaviour
         }
         else
         {
+            Debug.Log("FUK");
             waypointIndex = 0;
         }
     }
