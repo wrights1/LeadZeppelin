@@ -23,8 +23,10 @@ public class GunController : MonoBehaviour
     {
         //transform.localRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTrackedRemote);
 
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+        //if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+        if (Input.GetMouseButtonDown(0))
         {
+            Debug.Log("SHOOTIN THAT MF THANG");
             audioSource.PlayOneShot(clip);
             RaycastGun();
         }
