@@ -9,7 +9,8 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.Back))
+        //if (OVRInput.GetDown(OVRInput.Button.Back))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             PauseToggle();
         }
@@ -30,3 +31,4 @@ public class Pause : MonoBehaviour
         }
     }
 }
+

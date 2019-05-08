@@ -26,7 +26,7 @@ public class GunController : MonoBehaviour
         //if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("SHOOTIN THAT MF THANG");
+            //Debug.Log("SHOOTIN THAT MF THANG");
             audioSource.PlayOneShot(clip);
             RaycastGun();
         }
@@ -45,7 +45,8 @@ public class GunController : MonoBehaviour
 
             if (hit.collider.gameObject.CompareTag(hitTag))
             {
-                //numShots += 1;
+                Debug.Log("hit plane");
+                numShots += 1;
                 hit.collider.gameObject.SendMessageUpwards("applyParticles");
             }
         }
