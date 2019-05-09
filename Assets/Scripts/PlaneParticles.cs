@@ -8,14 +8,21 @@ public class PlaneParticles : MonoBehaviour
     public int maxShots; // number of times plane must be shot before going down
     public int fireShots; // min number of times to shoot plane before it catches fire
     public int smokeShots; // min number of times to shoot plane before it starts smoking 
+	public AudioSource audio; // for the explosion sound
+	public AudioClip clip;
 
     private ParticleSystem fire;
     private ParticleSystem smoke;
 
     public int numShots;
+	
 
     void Start()
     {
+		audio = GetComponent<AudioSource>();
+		
+        //audioData.clip = clip;
+		
         particles = gameObject.GetComponentsInChildren<ParticleSystem>(true);
         foreach(ParticleSystem part in particles)
         {
@@ -64,6 +71,7 @@ public class PlaneParticles : MonoBehaviour
     {
         Debug.Log("WE'RE GOING DOWN BOYS");
         //Destroy(this.gameObject);
+		audio.PlayOneShot(clip);
         gameObject.SetActive(false);
     }
 }
