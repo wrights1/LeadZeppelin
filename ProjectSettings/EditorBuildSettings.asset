@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlaneShooterGezim.unity
     guid: 443b22410a8258b44b3e2959082f0fe0
+  - enabled: 1
+    path: Assets/Scenes/SpotlightGezim.unity
+    guid: 138e96c4b2b72c74694ee0e9aa1b0435
   m_configObjects: {}
