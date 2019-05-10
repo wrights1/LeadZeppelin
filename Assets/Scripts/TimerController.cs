@@ -10,19 +10,40 @@ public class TimerController : MonoBehaviour
     private float time;
     [SerializeField] private Text timerLabel;
     [SerializeField] private GameObject LossMenu;
+	[SerializeField] private Text instructions;
+	
+	[SerializeField] public int numberEnemies;
+	[SerializeField] public int enemiesLeft;
 
     private bool lost= false;
+	
+	public void subTractEnemy()
+	{
+		enemiesLeft = enemiesLeft + 1;
+	}
 
     void Start()
     {
         time = timeLimitInSeconds;
         timerLabel.text = "3:00";
+		instructions.text = "Use mouse to look and aim \nClick to shoot";
+		instructions.gameObject.SetActive(true);
     }
 
     void Update()
     {
         if (time > 0)
         {
+			//Debug.Log(instructions.text);
+			if ((timeLimitInSeconds - 30) <= time)  // remove instructions after 30 seconds
+			{
+				instructions.text = "Use mouse to look and aim \nClick to shoot";
+			}
+			if ((timeLimitInSeconds - 30) > time)  // remove instructions after 30 seconds
+			{
+				//Debug.Log("turn off instructions");
+				instructions.text = "";
+			}
             time -= Time.deltaTime;
             string minutes = Mathf.Floor(time / 60).ToString("00");
             string seconds = (time % 60).ToString("00");

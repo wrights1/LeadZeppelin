@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlaneParticles : MonoBehaviour
 {
@@ -13,6 +15,10 @@ public class PlaneParticles : MonoBehaviour
 
     private ParticleSystem fire;
     private ParticleSystem smoke;
+	
+	[SerializeField] private Text enemyLabel;
+	
+	[SerializeField] TimerController timer;
 
     public int numShots;
 	
@@ -20,6 +26,8 @@ public class PlaneParticles : MonoBehaviour
     void Start()
     {
 		audio = GetComponent<AudioSource>();
+		
+		enemyLabel.text = timer.enemiesLeft + "/" + timer.numberEnemies;
 		
         //audioData.clip = clip;
 		
@@ -71,6 +79,8 @@ public class PlaneParticles : MonoBehaviour
     {
         Debug.Log("WE'RE GOING DOWN BOYS");
         //Destroy(this.gameObject);
+		timer.subTractEnemy();
+		enemyLabel.text = timer.enemiesLeft + "/" + timer.numberEnemies;
 		audio.PlayOneShot(clip);
         gameObject.SetActive(false);
     }
