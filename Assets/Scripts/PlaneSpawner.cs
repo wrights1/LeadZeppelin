@@ -13,7 +13,7 @@ public class PlaneSpawner : MonoBehaviour
     {
         if (!won)
         {
-            if (currPlane == planes.Length)
+            if (currPlane >= planes.Length)
             {
                 won = true;
                 Time.timeScale = 0f;
@@ -28,10 +28,6 @@ public class PlaneSpawner : MonoBehaviour
                     planes[currPlane].SetActive(true);
                 }
             }
-        }
-        else 
-        {
-
         }
     }
 }

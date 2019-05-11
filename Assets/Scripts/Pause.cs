@@ -13,6 +13,7 @@ public class Pause : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             PauseToggle();
+
         }
 
     }
